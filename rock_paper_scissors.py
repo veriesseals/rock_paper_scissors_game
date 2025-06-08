@@ -62,13 +62,6 @@ if random_rpc_choice == 1:
         print("Paper Beats Rock")
         print(play_paper)
         print(play_rock)
-    # # Draw Rock
-    # # --------------------------------------------
-    #
-    # elif Rock == 1 and Draw == 4:
-    #     print("Draw")
-    #     print(play_rock)
-    #     print(play_rock)
     else:
         print("Rock beats Scissors")
         print(play_rock)
@@ -80,14 +73,6 @@ elif random_rpc_choice == 2:
         print("Scissors beats Paper")
         print(play_scissors)
         print(play_paper)
-
-    # # Draw Paper
-    # # --------------------------------------------
-    # elif Paper == 2 and Draw == 4:
-    #     print("Draw")
-    #     print(play_paper)
-    #     print(play_paper)
-
     else:
         print("Rock beats Scissors")
         print(play_rock)
@@ -100,14 +85,6 @@ elif random_rpc_choice == 3:
         print("Rock beats Scissors")
         print(play_rock)
         print(play_scissors)
-
-    # # Draw Scissors
-    # # --------------------------------------------
-    # elif Scissors == 4 and Draw == 4:
-    #     print("Draw")
-    #     print(play_scissors)
-    #     print(play_scissors)
-
     else:
         print("Paper beats Rock")
 
